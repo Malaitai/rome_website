@@ -14,13 +14,14 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas:
-    "navbar navbar"
-    "banner banner"
-    "image_1 section_1"
-    "footer footer";
+    "navbar navbar navbar"
+    "banner banner banner"
+    "image_1 section_1 section_1"
+    "section_2 section_2 image_2"
+    "footer footer footer";
 }
 
 .navbar {
@@ -142,6 +143,10 @@ a {
     'opsz' 48
 }
 
+.box {
+    border: solid 1px var(--primary);
+}
+
 @media only screen and (max-width: 800px) {
     .container {
         
@@ -152,6 +157,8 @@ a {
         "banner"
         "section_1"
         "image_1"
+        "section_2"
+        "image_2"
         "footer";
     }
 }

@@ -150,6 +150,7 @@ input[type=text], select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    font: var(--font);
 }
 
 input[type=submit] {
@@ -161,10 +162,15 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font: var(--font);
 }
 
 input[type=submit]:hover {
     background-color: var(--secondary);
+    border: solid 1px var(--primary);
+}
+
+.box {
     border: solid 1px var(--primary);
 }
 

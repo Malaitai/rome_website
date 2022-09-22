@@ -116,7 +116,7 @@ a {
 
 .img_sec p {
     margin: 0;
-    padding: 6px 16px;
+    padding: 10px 16px;
 }
 
 .section_1 {
@@ -146,6 +146,10 @@ a {
     'wght' 400,
     'GRAD' 0,
     'opsz' 48
+}
+
+.box {
+    border: solid 1px var(--primary);
 }
 
 @media only screen and (max-width: 800px) {
